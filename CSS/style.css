@@ -1,0 +1,155 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10px;
+}
+
+h3 {
+  color: #11999E;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+hr {
+  border: dotted #91c788;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #feffde;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ddffbc;
+  padding: 100px 0 20px;
+}
+
+.bottom-container {
+  background-color: #91c788;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom:300px;
+  left: 300px;
+}
+
+.profilePic {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+}
+
+.codePic {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill2 {
+  padding-bottom: 10px;
+}
+
+.chilliPic {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.b-intro {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  padding-bottom: 30px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #91C788;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #99C624;
+   border: solid #99C624 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.footer-link {
+  padding-right: 30px;
+}
+
+.footer-text {
+  color: #EAF6F6;
+  margin-bottom: 0;
+}
